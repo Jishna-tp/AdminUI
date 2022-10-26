@@ -8,16 +8,14 @@ const Header = () => {
   return (
     <div className='header'>
         <Sidebar />
-        <div className='header-items'>
             <div className='search'>
-                <input type="search" name="" id="" />
-                <IoIcons.IoMdSearch />
+                <input type="search" className='search_bar' name="" id="" />
+                <IoIcons.IoMdSearch className='search_icon' />
             </div>
             <div className='icons'>
-                <IoIcons.IoIosNotifications />
-                <CgIcons.CgProfile />
-            </div>
-        </div>     
+                <IoIcons.IoIosNotifications className='icon1' />
+                <CgIcons.CgProfile className='icon2' />
+            </div>   
     </div>
   )
 }
