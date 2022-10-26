@@ -4,10 +4,10 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Home'
 import Profile from './Profile'
 import {Settings, Venue, Department} from './Settings'
-// import Home from './Home'
+
 const Body = () => {
   return (
-    <Routes>
+    <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Settings" element={<Settings />} />

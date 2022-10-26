@@ -1,6 +1,4 @@
 import React,{useState} from 'react';
-// import styled from 'styled-components';
-// import {Link} from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import { NavLink } from 'react-router-dom';
 import './Sidebar.css'
@@ -24,12 +22,6 @@ const Sidebar = () => {
       <div style={{left: sidebar ? '0' : '-100%',transition: '350ms'}} className='SidebarNav' sidebar={sidebar}>
         <div className='Head'>
           <h1>Meetule</h1>
-          {/* {
-            SidebarData.map((item,index) => {
-              return <SubMenu item={item} key={index} />
-            })} */}
-        {/* </div>
-        <div className='SidebarWrap' > */}
           <NavLink to='#' className='NavIcon'>
             <FaIcons.FaBars onClick={showSidebar}/>
           </NavLink>
