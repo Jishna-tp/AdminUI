@@ -14,7 +14,7 @@ const ProModal = ({closeModal}) => {
                 <h1>Profile pic</h1>
             </div>
             <div className="body">
-                <p>Name <br/> Title <br/> e-mail </p>
+                <p> Admin <br/> Name <br/> Title <br/> e-mail </p>
             </div>
             <div className="footer">
                 <button>View Details</button>

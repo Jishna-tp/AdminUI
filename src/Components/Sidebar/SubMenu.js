@@ -10,9 +10,8 @@ const SubMenu = ({item}) => {
   const showSubnav = () => setSubnav(!subnav);
 
   return (
-    <>
-        <NavLink to={item.path} className='link' onClick={item.subNav &&
-        showSubnav} >
+    <div>
+        <NavLink to={item.path} className='link' onClick={item.subNav && showSubnav} >
           <div>
             <lable>{item.title}</lable>
           </div>
@@ -34,7 +33,8 @@ const SubMenu = ({item}) => {
             </NavLink>
           )
         })}
-    </>
+        {/* <button className='logout'> Log out </button> */}
+    </div>
   )
 }
 
